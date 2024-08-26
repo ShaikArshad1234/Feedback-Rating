@@ -1,0 +1,19 @@
+.star-rating {
+    text-align: start;
+  }
+  
+  .star {
+    font-size: 2rem;
+    cursor: pointer;
+    color: #ddd; /* Default star color */
+    transition: color 0.2s;
+  }
+  
+  .star.filled {
+    color: #f39c12; /* Filled star color */
+  }
+  
+  .star:hover {
+    color: #f39c12; /* Hover color for stars */
+  }
+  

@@ -1,0 +1,82 @@
+.form-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 200px;
+    margin: 10px auto;
+    margin-right: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-container h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+  }
+  
+  .label1,
+  .re {
+    margin-bottom: 15px;
+  }
+  
+  .label1 label,
+  .re label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 12px;
+  }
+  
+  .helper-text {
+    color: #777;
+    font-size: 12px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .save-button,
+  .cancel-button {
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .save-button {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .cancel-button {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .save-button:hover {
+    background-color: #218838;
+  }
+  
+  .cancel-button:hover {
+    background-color: #c82333;
+  }
+  

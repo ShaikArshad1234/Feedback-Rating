@@ -1,0 +1,26 @@
+.smiley-rating h3{
+  text-align: start;
+  margin: 10px;
+}
+
+.smileys {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.smiley {
+  font-size: 2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.smiley.selected {
+  transform: scale(1.2);
+}
+
+.smiley:hover {
+  transform: scale(1.1);
+}

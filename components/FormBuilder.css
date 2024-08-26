@@ -1,0 +1,45 @@
+.form-builder-container {
+  position: fixed; 
+  top: 110px; 
+  right: 350px; 
+  width: 600px; 
+  max-height: calc(100vh - 100px); 
+  background-color: white; 
+  border: 1px solid #ccc; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  overflow-y: auto; 
+  z-index: 1000; 
+  padding: 2px; 
+}
+
+.form-builder {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-field {
+  margin-bottom: 20px;
+}
+.button1 {
+  top: 20px;
+}
+.submit-button {
+  display: flex;
+  justify-content: center;
+}
+
+.submit-button button {
+  background-color: #007bff; 
+  color: white; 
+  border: none; 
+  padding: 10px 20px; 
+  border-radius: 4px; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease; 
+  margin-bottom: 30px;
+}
+
+.submit-button button:hover {
+  background-color: #0056b3; /* Darker background on hover */
+}

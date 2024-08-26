@@ -1,0 +1,39 @@
+/* Styles for the button */
+.btn {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #007bff; /* Bootstrap primary color */
+    border: none;
+    border-radius: 5px;
+    color: #f7f2f2;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 335px;
+    width: 550px;
+  }
+  
+  /* Icon styling */
+  .btn svg {
+    margin-right: 8px;
+    font-size: 20px;
+  }
+  
+  /* Button hover effect */
+  .btn:hover {
+    background-color: #0056b3; /* Darker shade of primary color */
+  }
+  
+  /* Focus state for accessibility */
+  .btn:focus {
+    outline: 2px solid #0056b3;
+    outline-offset: 2px;
+  }
+  
+  /* Active state when button is clicked */
+  .btn:active {
+    background-color: #004085; /* Even darker shade */
+    transform: scale(0.98); /* Slightly shrink button to give a press effect */
+  }
+  

@@ -1,0 +1,132 @@
+
+
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f8f9fa;
+  border-bottom: 2px solid #dee2e6;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: -20px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 600;
+  color: #343a40;
+}
+
+.header-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.header button {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.header .save {
+  background-color: #28a745;
+  color: white;
+}
+
+.header .publish {
+  background-color: #007bff;
+  color: white;
+}
+
+.header .save:hover {
+  background-color: #218838;
+}
+
+.header .publish:hover {
+  background-color: #0056b3;
+}
+
+.field-controls {
+  margin-bottom: 20px;
+}
+
+.field-controls button {
+  margin-right: 10px;
+}
+
+.form-builder {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.form-field {
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.field label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.field input,
+.field textarea,
+.field select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.field span {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+  display: block;
+}
+.submit-button {
+  text-align: right;
+  margin-top: 20px;
+}
+
+.submit-button button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-button button:hover {
+  background-color: #0056b3;
+}
+
+.gwf {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  width: 250px;
+  margin-left: 300px;
+}
